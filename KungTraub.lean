@@ -1,0 +1,74 @@
+import KungTraub.Definitions
+import KungTraub.Coefficients
+import KungTraub.Exponents
+import KungTraub.EntireLimit
+import KungTraub.Consequences
+import KungTraub.Transcripts
+import KungTraub.AnalyticRestriction
+import KungTraub.DiagonalEstimates
+import KungTraub.RealRoots
+import KungTraub.FiniteRootMotion
+import KungTraub.PolynomialRootLimits
+import KungTraub.FiniteAvoidance
+import KungTraub.PolynomialWronskians
+import KungTraub.PolynomialCoefficientLimits
+import KungTraub.RootIntervals
+import KungTraub.GaussianBounds
+import KungTraub.PolynomialBases
+import KungTraub.ParameterGeometry
+import KungTraub.PolynomialInformation
+import KungTraub.RealComplexInformation
+import KungTraub.PolynomialFrames
+import KungTraub.PolynomialNormalization
+import KungTraub.PolynomialLocalization
+import KungTraub.EntireFamilies
+import KungTraub.AffineTranscripts
+import KungTraub.ParameterBalls
+import KungTraub.ParameterRootIntervals
+import KungTraub.AdversaryStep
+import KungTraub.DerivativeObservations
+import KungTraub.PolynomialSensitivity
+import KungTraub.PolynomialDirections
+import KungTraub.ForbiddenWronskians
+import KungTraub.RealPolynomialKernels
+import KungTraub.PolynomialKernelSensitivity
+import KungTraub.RealPolynomialSensitivity
+import KungTraub.AffinePolynomialSensitivity
+import KungTraub.EntireStages
+import KungTraub.EntireWitnessAssembly
+import KungTraub.AffinePolynomialInformation
+import KungTraub.FiniteStageConstants
+import KungTraub.FiniteFamilyGeometry
+import KungTraub.AdaptiveForbiddenSets
+import KungTraub.GaussianFiniteFamily
+import KungTraub.FiniteAdversary
+import KungTraub.QueryHistories
+import KungTraub.AffineRestriction
+import KungTraub.PolynomialDerivativeBound
+import KungTraub.GroupedExponents
+import KungTraub.BudgetExtension
+import KungTraub.EntireStageConstruction
+import KungTraub.EntireStageSequence
+import KungTraub.GenericPolynomialSensitivity
+import KungTraub.GenericRealPolynomialSensitivity
+import KungTraub.GroupedIndexing
+import KungTraub.GroupedAffineTranscripts
+import KungTraub.GroupedParameterBalls
+import KungTraub.GroupedAdversaryStep
+import KungTraub.GroupedPolynomialSensitivity
+import KungTraub.GroupedPolynomialInformation
+import KungTraub.GroupedForbiddenSets
+import KungTraub.GroupedStageConstants
+import KungTraub.GroupedFiniteAdversary
+import KungTraub.GroupedFlattening
+import KungTraub.GroupedStageConstruction
+import KungTraub.GroupedEntireWitness
+import KungTraub.UniformRealStageConvergence
+import KungTraub.LocalAndStoppingAlgorithms
+import KungTraub.GroupedSpecialCases
+
+/-!
+# Kung–Traub observation models and supporting results
+
+The main theorem and corollary are in `Solution`.
+-/

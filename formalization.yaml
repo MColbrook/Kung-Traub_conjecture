@@ -1,0 +1,203 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/99c678e569c7c4c0772db297c5ddd5e4c9b6322e/schema/v0.4.schema.json
+version: v0.4
+project:
+  name: Kung–Traub in Lean
+  description: >-
+    The Kung–Traub scalar upper bound, the prescribed-group corollary,
+    inverse Hermite attainment and exact order, and the complex-observation
+    upper bound, together with their supporting constructions.
+  authors:
+    - Matthew J. Colbrook (mathematical author and project direction)
+  responsible_maintainers:
+    - Matthew J. Colbrook
+  license: All rights reserved; third-party components retain their own licences
+repository:
+  url: https://github.com/MColbrook/Kung-Traub_conjecture
+  role: substantive-development
+sources:
+  - title: 'Adversarial Wronskians: A proof of the Kung–Traub conjecture'
+    authors: [Matthew J. Colbrook]
+    type: unpublished manuscript
+    location: Main theorem, prescribed-group corollary, supporting results, and Appendices A–B
+    relationship: formalizes
+    author_endorsement: participated
+  - title: Optimal order of one-point and multipoint iteration
+    authors: [H. T. Kung, J. F. Traub]
+    type: journal article
+    relationship: background
+    note: >-
+      Journal of the ACM 21(4) (1974), 643–651. The manuscript attributes
+      the attaining methods to this work.
+  - title: Divided differences
+    authors: [C. de Boor]
+    id: arXiv:math/0502036
+    type: journal article
+    location: Section 8, equation (44)
+    relationship: background
+    note: >-
+      Surveys in Approximation Theory 1 (2005), 46–69. Source of the
+      divided-difference estimate cited in the manuscript.
+  - title: mathlib4
+    authors: [The mathlib community]
+    id: https://github.com/leanprover-community/mathlib4/tree/0df444a360eaa60ab8c11dca51a86af692955474
+    type: Lean library
+    relationship: background
+    license: Apache-2.0
+classification:
+  arxiv: [math.NA]
+  msc2020: [65H05]
+environment:
+  lean: 4.33.1
+  lean_commit: 819816b2e0a3bf405af45ae5c7af2491d8f5bee6
+  mathlib_revision: 0df444a360eaa60ab8c11dca51a86af692955474
+  dependency_lock: lake-manifest.json
+  toolchain_file: lean-toolchain
+automation:
+  methods:
+    - method: other
+      tool_setup: Lean tactic proofs and kernel checking
+status:
+  scope: >-
+    Complete proofs of the real scalar upper bound and prescribed-group
+    corollary, entire counterexamples and their universal-order consequences,
+    simultaneous failure of all larger real exponents, inverse Hermite
+    attainment on open real intervals and exact order for exp(x)-1, and
+    the complex entire counterexample with local-domain consequences.
+    The supporting results include observation models, stopping and partial
+    rules, Wronskian localization, finite adversaries, entire limits,
+    interpolation remainders, and optimality of the interval-local exponent.
+  phase: complete
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: [propext, Classical.choice, Quot.sound]
+  principal_result_count: 12
+  named_theorem_count: 1058
+  supporting_theorem_count: 1046
+  axiom_audit_declaration_count: 1202
+  main_results:
+    - declaration: KungTraub.entire_counterexample
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraub.no_entire_universal_order_above
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraub.no_universal_order_above
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraub.grouped_entire_counterexample
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraub.no_grouped_entire_universal_order_above
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraub.no_grouped_universal_order_above
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraub.simultaneous_entire_counterexample
+      file: Solution.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraubAppendices.complex_entire_counterexample
+      file: KungTraubAppendices/ComplexConclusion.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraubAppendices.no_complex_universal_order_above
+      file: KungTraubAppendices/ComplexConclusion.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraubAppendices.inverseHermite_universal_local_order
+      file: KungTraubAppendices/HermiteLocalOrder.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraubAppendices.inverseHermite_exp_asymptotic
+      file: KungTraubAppendices/ExponentialAsymptotic.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+    - declaration: KungTraubAppendices.inverseHermite_not_local_order_exp
+      file: KungTraubAppendices/SharpnessConclusion.lean
+      sorry_count: 0
+      axioms: [propext, Classical.choice, Quot.sound]
+      comparator_config: Verification/principals.json
+      literature_dependencies: []
+verification:
+  report: Verification/Results/results.json
+  axiom_inventory: Verification/Axioms.lean
+  axiom_check_command: python3 scripts/check_axioms.py
+  comparison_configs:
+    - file: Verification/principals.json
+      target_count: 12
+    - file: Verification/real-support.json
+      target_count: 646
+    - file: Verification/hermite-support.json
+      target_count: 199
+    - file: Verification/complex-support.json
+      target_count: 922
+  distinct_comparison_target_count: 1058
+alignment:
+  main_theorem:
+    - KungTraub.entire_counterexample
+    - KungTraub.no_entire_universal_order_above
+    - KungTraub.no_universal_order_above
+    - KungTraub.simultaneous_entire_counterexample
+  prescribed_group_corollary:
+    - KungTraub.grouped_entire_counterexample
+    - KungTraub.no_grouped_entire_universal_order_above
+    - KungTraub.no_grouped_universal_order_above
+  appendix_a:
+    - KungTraubAppendices.inverseHermite_universal_local_order
+    - KungTraubAppendices.inverseHermite_exp_asymptotic
+    - KungTraubAppendices.inverseHermite_not_local_order_exp
+  appendix_b:
+    - KungTraubAppendices.complex_entire_counterexample
+    - KungTraubAppendices.no_complex_universal_order_above
+  mathematical_overview: docs/Mathematics.md
+fidelity:
+  divergences: >-
+    The real counterexamples are restrictions of entire functions that take
+    real values on the real axis; consequences for the whole-line real-analytic
+    class are proved. The grouped entire witnesses and simultaneous real
+    counterexample strengthen the corresponding upper-bound statements.
+    Polynomial root persistence uses factorization and evaluation estimates;
+    limiting root multiplicities use synthetic division and compact root tuples.
+    The complex near-identity root-existence argument uses contraction under
+    the same value and derivative bounds, with the same discs and conclusions,
+    in place of Rouché's theorem. Stage indices are zero-based.
+review:
+  status: kernel-checked
+  notes: >-
+    A clean Linux build, the explicit 1,202-declaration axiom audit and all four
+    secure Comparator configurations passed. The actual commands, source
+    hashes and results appear in Verification/Results/results.json;
+    docs/Verification.md gives the checking instructions.
+acknowledgements: >-
+  The formalization uses Mathlib throughout. Mathematical source attribution
+  and the specific library results used appear in the source module comments
+  and docs/Mathematics.md.
