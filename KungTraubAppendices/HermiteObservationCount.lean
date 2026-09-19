@@ -1,0 +1,97 @@
+import KungTraubAppendices.ExponentialAsymptotic
+
+/-!
+# Exact observation counts on nonstopping Hermite executions
+
+This supplies the numerical count in Appendix A of Matthew J. Colbrook's
+manuscript. The actual bounded tree makes one value observation for each
+nonstopping tail stage, in addition to the initial value and derivative.
+The proof adapts the exact history transport in `HermiteHistorySequence`
+(`inverseHermiteTail_run_eq_history`), replacing output equality by the
+actual `BoundedRealTree.observationCount`. No query is added at the final output.
+The exponential case follows from eventual validity of the interpolation histories.
+-/
+
+noncomputable section
+
+open Filter KungTraub
+open scoped Topology
+
+namespace KungTraubAppendices
+
+/-- The actual tail uses every remaining value-observation slot when its
+queried history values are nonzero. The unqueried final output is excluded. -/
+theorem inverseHermiteTail_observationCount_eq (f : ℝ → ℝ) (x : ℝ)
+    (remaining j : ℕ)
+    (hnonzero : ∀ k, j + 1 ≤ k → k ≤ j + remaining →
+      f (inverseHermiteHistory f k x (Fin.last k)) ≠ 0) :
+    (inverseHermiteTail remaining j (fun i => f (inverseHermiteHistory f j x i))
+      (inverseHermiteHistory f j x) (deriv f x)⁻¹
+      (inverseHermiteHistory f (j + 1) x (Fin.last (j + 1)))).observationCount f =
+        remaining := by
+  induction remaining generalizing j with
+  | zero => rfl
+  | succ remaining ih =>
+    have hz := hnonzero (j + 1) le_rfl (by omega)
+    simp only [inverseHermiteTail, BoundedRealTree.observationCount, RealQuery.answer,
+      iteratedDeriv_zero, if_neg hz]
+    have hext : Fin.snoc (inverseHermiteHistory f j x)
+        (inverseHermiteHistory f (j + 1) x (Fin.last (j + 1))) =
+        inverseHermiteHistory f (j + 1) x := by
+      rw [inverseHermiteHistory_last]
+      rfl
+    have hvalues : Fin.snoc (fun i => f (inverseHermiteHistory f j x i))
+        (f (inverseHermiteHistory f (j + 1) x (Fin.last (j + 1)))) =
+        fun i => f (inverseHermiteHistory f (j + 1) x i) := by
+      simpa only [hext, Function.comp_def] using
+        (Fin.comp_snoc f (inverseHermiteHistory f j x)
+          (inverseHermiteHistory f (j + 1) x (Fin.last (j + 1)))).symm
+    rw [hext, hvalues, ← inverseHermiteHistory_last]
+    rw [ih (j + 1) (fun k hlow hhigh => hnonzero k (by omega) (by omega))]
+    omega
+
+/-- With a nonzero initial derivative and no zero queried value, the actual
+method uses exactly `n` observations: two initial observations and `n−2` values. -/
+theorem inverseHermiteTree_observationCount_eq (n : ℕ) (hn : 2 ≤ n)
+    (f : ℝ → ℝ) (x : ℝ) (hd : deriv f x ≠ 0)
+    (hnonzero : ∀ k, k < n - 1 →
+      f (inverseHermiteHistory f k x (Fin.last k)) ≠ 0) :
+    (inverseHermiteTree n x).observationCount f = n := by
+  obtain ⟨k, hk⟩ : ∃ k, n = k + 2 := ⟨n - 2, by omega⟩
+  subst n
+  have hz : f x ≠ 0 := hnonzero 0 (by omega)
+  simp only [inverseHermiteTree, BoundedRealTree.observationCount, RealQuery.answer,
+    iteratedDeriv_zero, iteratedDeriv_one, if_neg hz, if_neg hd]
+  have h := inverseHermiteTail_observationCount_eq f x k 0
+    (fun i _ hi => hnonzero i (by omega))
+  have hfirst : inverseHermiteHistory f 1 x (Fin.last 1) = x - f x / deriv f x := by
+    rw [inverseHermiteHistory_last]
+    change (hermiteWithDerivative Finset.univ (fun _ : Fin 1 => f x)
+      (fun _ : Fin 1 => x) 0 (deriv f x)⁻¹).eval 0 = _
+    exact hermite_initial_eval f x
+  rw [hfirst] at h
+  simp only [inverseHermiteHistory] at h
+  rw [h]
+  omega
+
+/-- On the exponential witness every sufficiently small nonzero starting
+point uses the full observation budget, from either side of zero. -/
+theorem inverseHermite_exp_eventually_observationCount_eq (n : ℕ) (hn : 2 ≤ n) :
+    ∀ᶠ x in 𝓝[≠] (0 : ℝ),
+      ((inverseHermiteMethod n) x).observationCount (fun t => Real.exp t - 1) = n := by
+  have hnonzero : ∀ k : Fin (n - 1), ∀ᶠ x in 𝓝[≠] (0 : ℝ),
+      Real.exp (inverseHermiteHistory (fun t => Real.exp t - 1) k.val x
+        (Fin.last k.val)) - 1 ≠ 0 := by
+    intro k
+    filter_upwards [inverseHermiteHistory_exp_eventually_valid k.val] with x hx
+    intro hz
+    apply hx.2 (Fin.last k.val)
+    apply Real.exp_injective
+    rw [Real.exp_zero]
+    linarith
+  filter_upwards [Filter.eventually_all.mpr hnonzero] with x hx
+  exact inverseHermiteTree_observationCount_eq n hn _ x
+    (by rw [deriv_exp_sub_one]; exact Real.exp_ne_zero x)
+    (fun k hk => hx ⟨k, hk⟩)
+
+end KungTraubAppendices
