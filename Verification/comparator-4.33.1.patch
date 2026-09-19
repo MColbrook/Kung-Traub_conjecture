@@ -1,0 +1,59 @@
+diff --git a/lake-manifest.json b/lake-manifest.json
+index 09e7ecd..06f5a38 100644
+--- a/lake-manifest.json
++++ b/lake-manifest.json
+@@ -1,16 +1,21 @@
+-{"version": "1.2.0",
+- "packagesDir": ".lake/packages",
+- "packages":
+- [{"url": "https://github.com/leanprover/lean4export",
+-   "type": "git",
+-   "subDir": null,
+-   "scope": "leanprover",
+-   "rev": "15f6055e299ad5b89345e533cc2192f4cc00f659",
+-   "name": "lean4export",
+-   "manifestFile": "lake-manifest.json",
+-   "inputRev": "master",
+-   "inherited": false,
+-   "configFile": "lakefile.toml"}],
+- "name": "Comparator",
+- "lakeDir": ".lake",
+- "fixedToolchain": false}
++{
++  "version": "1.2.0",
++  "packagesDir": ".lake/packages",
++  "packages": [
++    {
++      "url": "https://github.com/leanprover/lean4export",
++      "type": "git",
++      "subDir": null,
++      "scope": "leanprover",
++      "rev": "15f6055e299ad5b89345e533cc2192f4cc00f659",
++      "name": "lean4export",
++      "manifestFile": "lake-manifest.json",
++      "inputRev": "15f6055e299ad5b89345e533cc2192f4cc00f659",
++      "inherited": false,
++      "configFile": "lakefile.toml"
++    }
++  ],
++  "name": "Comparator",
++  "lakeDir": ".lake",
++  "fixedToolchain": false
++}
+diff --git a/lakefile.toml b/lakefile.toml
+index 8b55152..c2d977a 100644
+--- a/lakefile.toml
++++ b/lakefile.toml
+@@ -12,4 +12,4 @@ root = "Main"
+ [[require]]
+ scope = "leanprover"
+ name = "lean4export"
+-rev = "master"
++rev = "15f6055e299ad5b89345e533cc2192f4cc00f659"
+diff --git a/lean-toolchain b/lean-toolchain
+index 025e595..a8afa7d 100644
+--- a/lean-toolchain
++++ b/lean-toolchain
+@@ -1 +1 @@
+-leanprover/lean4:v4.33.0
++leanprover/lean4:v4.33.1

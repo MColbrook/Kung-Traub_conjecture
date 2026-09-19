@@ -1,0 +1,10 @@
+Selected verbatim lines from the complete Comparator output.
+Selection: export inventories, build success, default-kernel acceptance, Comparator acceptance.
+Complete output SHA256: cb3ebbeb172cb8c875375aade86c519401885b7f4b8eaab7248c0208f50abde1
+
+Build completed successfully (3108 jobs).
+Exporting #[KungTraub.entire_counterexample, KungTraub.no_entire_universal_order_above, KungTraub.no_universal_order_above, KungTraub.grouped_entire_counterexample, KungTraub.no_grouped_entire_universal_order_above, KungTraub.no_grouped_universal_order_above, KungTraub.simultaneous_entire_counterexample, KungTraubAppendices.complex_entire_counterexample, KungTraubAppendices.no_complex_universal_order_above, KungTraubAppendices.inverseHermite_universal_local_order, KungTraubAppendices.inverseHermite_exp_asymptotic, KungTraubAppendices.inverseHermite_not_local_order_exp, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from Challenge
+Build completed successfully (3875 jobs).
+Exporting #[KungTraub.entire_counterexample, KungTraub.no_entire_universal_order_above, KungTraub.no_universal_order_above, KungTraub.grouped_entire_counterexample, KungTraub.no_grouped_entire_universal_order_above, KungTraub.no_grouped_universal_order_above, KungTraub.simultaneous_entire_counterexample, KungTraubAppendices.complex_entire_counterexample, KungTraubAppendices.no_complex_universal_order_above, KungTraubAppendices.inverseHermite_universal_local_order, KungTraubAppendices.inverseHermite_exp_asymptotic, KungTraubAppendices.inverseHermite_not_local_order_exp, propext, Classical.choice, Quot.sound, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce] from All
+Lean default kernel accepts the solution
+Your solution is okay!

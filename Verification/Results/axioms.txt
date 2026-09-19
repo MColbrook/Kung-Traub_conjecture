@@ -1,0 +1,1664 @@
+'KungTraub.AffineAlgorithm.actualLinearMap_eq_of_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.actualObservation_eq_of_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.actual_location_mem_forbiddenSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.complexQueryLocation_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.AffineAlgorithm.direction_eq_of_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.direction_eq_polynomial_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.direction_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.direction_succ_of_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.exists_large_error_of_root_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.AffineAlgorithm.exists_next_ball_avoiding_finite_set' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.AffineAlgorithm.forbiddenSet_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.forbiddenSet_eq_of_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.forbiddenSet_eq_on_parameterBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.normalized_polynomial_direction_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.AffineAlgorithm.parameterBall_next_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.polynomialObservation_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.polynomialObservation_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.AffineAlgorithm.polynomialObservation_parameterPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.AffineAlgorithm.prefix_add_eq_of_mem_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.prefix_eq_iff_linear_equations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.prefix_eq_iff_sub_mem_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.prefix_eq_of_later_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.prefix_eq_on_parameterBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.projected_sensitivity_of_forbidden_avoidance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.AffineAlgorithm.projected_sensitivity_of_polynomial_value' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.AffineAlgorithm.query_eq_on_parameterBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.restrict_actual_location_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.restrict_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.restrict_run_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.root_ne_actual_location_of_avoidance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.AffineAlgorithm.run_add_eq_of_mem_direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineAlgorithm.run_eq_on_parameterBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineObservation.answer_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AffineObservation.restrict_answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.AnalyticUniversalLocalOrder.entireUniversalLocalOrder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.BoundedRealTree.observationCount_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.BoundedRealTree.paddedOutput_answers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.BoundedRealTree.paddedQuery_answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.EntireCounterexample.not_analyticUniversalLocalOrder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.EntireCounterexample.not_entireUniversalLocalOrder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.EntireRealType.analyticAt_realRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.EntireWitnessData.simpleRealRoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.ErrorRatioDiverges.not_localOrderAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.affine_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.finite_adversary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.grouped_finite_adversary' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.grouped_initial_sensitivity_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.initial_sensitivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.initial_sensitivity_at' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.next_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.next_group_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.root_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.FiniteRootFamily.uniform_root_motion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianAdversarialStages.assemble' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianAdversarialStages.limit_jet_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianAdversarialStages.output_preserved' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianAdversarialStages.ratio_stage_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianAdversarialStages.relative_root_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianAdversarialStages.start_distance_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianAdversarialStages.starts_ne_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianAdversarialStages.starts_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianHistory.current_budget_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianHistory.current_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianHistory.exists_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianHistory.history_nodes_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianHistory.update_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.budget_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.entire_real_type' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.eventual_disc_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.existsUnique_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.finite_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.finite_derivative_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.finite_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.limit_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.limit_derivative_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.limit_tail_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.locally_uniform_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.real_derivative_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.real_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.root_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.uniform_real_derivative_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageBounds.uniform_real_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageChoice.error_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GaussianStageChoice.exists_next_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.actualLinearMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.actualLinearMap_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.actualLinearMap_groupSlotEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.actualObservations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.actualObservations_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.actual_location_mem_groupForbiddenSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.actual_location_mem_scalarForbiddenSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.complexQueryLocation_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.complexQueryLocation_groupSlotEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.direction_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.direction_eq_of_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.direction_eq_polynomial_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.direction_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.direction_succ_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.direction_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.exists_large_error_of_root_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.exists_next_ball_avoiding_finite_set' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.groupForbiddenSet_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.groupForbiddenSet_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.groupForbiddenSet_eq_on_parameterBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.mem_direction_iff_group_equations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.mk' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.normalized_polynomial_direction_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.output' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.parameterBall_next_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.polynomialObservation_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.polynomialObservation_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.polynomialObservation_parameterPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.prefix_eq_iff_group_equations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.prefix_eq_iff_scalar_equations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.prefix_eq_iff_sub_mem_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.prefix_eq_of_later_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.prefix_eq_on_parameterBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.projected_sensitivity_of_forbidden_avoidance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.projected_sensitivity_of_group_forbidden_avoidance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.queries_eq_on_parameterBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.query' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.root_ne_actual_location_of_scalar_avoidance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.run' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.run_eq_of_sub_mem_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.run_eq_on_parameterBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.scalarForbiddenSet_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.scalarForbiddenSet_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.scalarForbiddenSet_subset_groupForbiddenSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.scalarForbiddenSet_subset_groupForbiddenSet_of_range' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedAffineAlgorithm.scalar_avoidance_of_group_avoidance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedRealAlgorithm.actualQueries_eq_of_answers_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedRealAlgorithm.decode_scalarAnswers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.flatten' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.flatten_actualQuery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.flatten_actualQuery_groupSlotEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedRealAlgorithm.flatten_prefix_eq_scalarAnswers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedRealAlgorithm.flatten_query_on_scalarAnswers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedRealAlgorithm.flatten_run_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.prefix_apply_eq_actual_answer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.GroupedRealAlgorithm.prefix_eq_of_answers_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.run_eq_of_answers_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.run_eq_of_derivatives_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.scalarAnswers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.scalarAnswers_groupSlotEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.toAffine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.toAffine_actual_location_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.toAffine_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.GroupedRealAlgorithm.toAffine_run_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.PartialRealAlgorithm.localOrderAt_totalExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.PartialRealAlgorithm.localOrderAt_totalExtension_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.PartialRealAlgorithm.totalExtension_actualQuery_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.PartialRealAlgorithm.totalExtension_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.PartialRealAlgorithm.totalExtension_run_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.actualQuerySet_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.actualQuery_eq_of_answers_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.mem_actualQuerySet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.mem_queryHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.prefix_eq_of_answers_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.prefix_eq_prescribed_answers' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.queryHistory_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.queryHistory_covers_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.queryHistory_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.queryHistory_nodes_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.queryHistory_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.queryHistory_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.run_eq_of_answers_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.run_eq_of_derivatives_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.toAffine_actual_location_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.toAffine_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealAlgorithm.toAffine_run_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.RealQuery.answer_eq_of_derivatives_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.StoppingRealAlgorithm.localOrderAt_padded_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.StoppingRealAlgorithm.padded_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.StoppingRealAlgorithm.padded_run_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.abs_inner_le_projected_norm_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.abs_zero_le_perturbation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.adversaryRadiusFactor_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.adversaryRadiusFactor_motion_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.adversaryRadiusFactor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.analyticAt_realRestriction_of_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.budget_le_geometric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.chosenGaussianBudget_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.chosenGaussianEntry_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.chosenGaussianFunction_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.chosenGaussianOutput_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.coefficientVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.coefficientVector_map_real_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.coefficientVector_ne_zero_of_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.coefficientVector_norm_le_mahler' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.coefficientVector_polynomialOfCoefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexGaussianPolynomial_C_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexGaussianPolynomial_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexGaussianPolynomial_exists_disc_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexGaussianPolynomial_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexifiedMatrixKernelEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexified_matrix_finrank_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexified_matrix_finrank_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexified_matrix_has_real_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexified_matrix_kernel_mem_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexified_matrix_mulVec_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexified_matrix_mulVec_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexified_matrix_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexifyEuclidean_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexifyPolynomialFunctional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexifyPolynomialFunctional_im' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexifyPolynomialFunctional_map_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexifyPolynomialFunctional_monomial_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexifyPolynomialFunctional_re' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexifyPolynomialObservations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexify_realCoefficientVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.complexify_realInverseConstantScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.continuousOn_roots_of_uniform_derivative_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.continuous_roots_of_uniform_derivative_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.decodeGroupPrefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.derivativeAffineObservation_answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.derivativeAffineObservation_answer_of_analytic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.derivativeAffineObservation_idle_answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.derivativeAffineObservation_location' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.derivativeObservationLinearMap_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.derivative_coefficient_series' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.derivative_coefficient_series_sqrt_lt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.derivative_weight_sq_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.differentiable_tsum_of_disc_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.distance_mul_le_image_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.distance_mul_le_image_distance_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.distance_to_zero_le_value_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.distance_to_zero_le_value_div_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.entireCounterexample_of_gaussian_stages' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.entire_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.error_ratio_mono_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.euclidean_norm_le_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.euclidean_norm_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.eventually_stage_exponent_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.existsUnique_zero_of_bounded_identity_perturbation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.exists_abs_lower_bound_near_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_far_from_finite_of_separated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_first_scalar_rank_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_gaussianAdversarialStages_of_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_gaussianCorrectionSmall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_gaussianStageChoice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_grouped_gaussianAdversarialStages' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_grouped_gaussianStageChoice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_minimum_degree_kernel_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_next_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_orthonormal_coefficient_frame_member_subseq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.exists_orthonormal_coefficient_frame_subseq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_parameterBall_center_avoiding_finite_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_parameter_avoiding_finite_set_of_root_interval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.exists_polynomial_basis_distinct_degrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_polynomial_coefficient_orthonormal_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_polynomial_family_distinct_degrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_polynomial_frame_member_subseq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_polynomial_in_scalar_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_polynomial_unit_coefficient_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_real_kernel_polynomial_of_complex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_real_minimum_degree_complex_kernel_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.exists_real_point_away_from_finite_complex_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_roots_ordered_by_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_scalar_gaussianAdversarialStages' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_scalar_rank_indices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_small_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_stage_scale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_unit_direction_attaining_projected_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.exists_unit_real_minimum_degree_kernel_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.extendBudget_agrees' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.extendBudget_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.extendBudget_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.extendBudget_initial_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.extendBudget_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.extendBudget_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.fallingFactorial_det_eq_vandermonde' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.fallingFactorial_det_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.family_geometric_sum_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.family_start_in_unit_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteAffineFamily_gaussian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_budget_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_derivative_deviation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_existsUnique_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_gaussian_entire_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_gaussian_form' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_identity_deviation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_root_abs_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteEntireStage_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteScaleContraction_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteScaleErrorConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageGamma_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageRadius_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageRadius_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageRadius_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageRadius_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageState_A_le_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageState_A_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageState_c_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageState_c_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageState_c_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageState_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStageState_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finiteStage_final_error_constant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.finite_orthonormal_sum_inner_of_mem_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.forbiddenWronskianCountBound' depends on axioms: [propext]
+'KungTraub.forbiddenWronskianSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.forbiddenWronskianSet_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianBound_C_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianBound_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianBound_scaled_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianBound_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCoefficientFunction_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCoefficientFunction_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCoefficientVector_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCoefficientVector_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianComplexStage_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianComplexStage_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrectionPolynomial_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrectionPolynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrectionPolynomial_exists_small_scaling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrectionPolynomial_exists_uniform_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrectionPolynomial_iteratedDeriv_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.gaussianCorrectionSmall_of_three_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrectionSmall_weight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_at_old_root_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_coefficient_derivative_norm_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.gaussianCorrection_continuous_parameter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_continuous_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_deriv_eq_sum_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_eq_parameter_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_eq_sum_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_exists_finiteRootFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_exists_root_family' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_family_derivative_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_family_existsUnique_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_root_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_root_distance_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_vector_derivative_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianCorrection_weight_uniformly_away_from_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.gaussianHistoryChain_budget_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianHistoryChain_entry_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianHistoryChain_extends' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianHistoryFunction_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianHistoryFunction_eq_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianHistoryFunction_update_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianHistoryFunction_update_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_C_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_continuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_deriv_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_exists_C1_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_exists_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_exists_common_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_exists_shift_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_exists_small_scaling' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_iteratedDeriv_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianPolynomial_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussianUpdatedFunction_eq_base' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussian_derivativeAffineObservation_answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussian_family_bracket_at_old_root_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussian_stage_add_correction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussian_stage_base_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.gaussian_stage_derivativeAffineObservation_answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupSizeAt' does not depend on any axioms
+'KungTraub.groupSizeAt_of_le' depends on axioms: [propext]
+'KungTraub.groupSizeAt_of_lt' depends on axioms: [propext]
+'KungTraub.groupSlotEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupSlotEquiv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupSlotEquiv_lt_prefix_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.group_prefix_count_le_scalar_position' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedFiniteScaleContraction_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedFiniteScaleErrorConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedFiniteStageGamma_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedFiniteStageState_A_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedFiniteStageState_c_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedFiniteStageState_c_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedFiniteStageState_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedFiniteStageState_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedFiniteStage_final_error_constant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedOrderBound_equal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedOrderBound_equal_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedOrderBound_single' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedOrderBound_single_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedOrderBound_singletons' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedOrderBound_singletons_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedPrefixCount' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedPrefixCount_eq_sum_fin' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedPrefixCount_eq_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedPrefixCount_le_total' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedPrefixCount_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedPrefixCount_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedPrefixCount_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedScalarExponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedScalarExponent_offset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedStageExponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedStageExponent_eq_groupedOrderBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedStageExponent_eq_weighted_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedStageExponent_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedStageExponent_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedStageExponent_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedStageExponent_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.groupedStageExponent_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.grouped_entireCounterexample_constructed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.grouped_entire_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.grouped_gaussianStageExtensionAvailable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.grouped_real_kernel_projected_sensitivity_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.grouped_simultaneousEntireCounterexample_constructed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.grouped_weighted_count_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.im_limit_eq_zero_on_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.imagPartPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.imagPartPolynomial_annihilated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.imagPartPolynomial_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.imagPartPolynomial_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.image_distance_le_distance_mul_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.initialGaussianHistory_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.initialGaussianHistory_vacuous' does not depend on any axioms
+'KungTraub.injective_nat_sum_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.inner_eq_inner_projected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.inverseConstantScale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.inverseConstantScale_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.inverseConstantScale_norm_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.iteratedDeriv_finiteAffineFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.iteratedDeriv_limit_eq_of_eventually_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.iteratedDeriv_real_restriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.linearIndependent_complexification' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.maxQueryOrder_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.max_output_error_ge_half_root_separation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.mem_forbiddenWronskianSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.mem_queryNodes_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.mem_scalarPrefixKernel' depends on axioms: [propext, Quot.sound]
+'KungTraub.mem_shiftedWronskianRoots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.mem_span_of_orthonormal_limits' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.mem_span_polynomialKernelFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.minimum_degree_kernel_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.minimum_degree_kernel_rank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.minimum_degree_kernel_rank_indices' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.minimum_degree_kernel_root_distance_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.minimum_degree_kernel_root_distance_bounds_exponents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.minimum_degree_kernel_value_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.minimum_degree_kernel_value_lower_bound_exponents' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.minimum_degree_kernel_weighted_inverse_scale_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.no_entire_universal_order_above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.no_grouped_entire_universal_order_above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.no_grouped_universal_order_above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.no_universal_order_above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.norm_le_of_unit_inner_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.normalized_coefficient_tail_sq_sum_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.one_le_uniformWronskianConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.orderBound_one_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.orderBound_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.orderBound_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.orderBound_zero' depends on axioms: [propext]
+'KungTraub.ordered_roots_suffix_in_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.orthonormal_of_pointwise_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.parameterBall_add_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.parameterBall_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.parameterBall_mono_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.parameterBall_nested' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.parameterBall_nested_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.parameterBall_unit_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQueryPolynomial_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQueryPolynomial_eval_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQueryPolynomial_eval_ne_zero_at_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQueryPolynomial_factor_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQueryPolynomial_monic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQueryPolynomial_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQuery_exists_small_correction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQuery_gaussian_correction_jet_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQuery_gaussian_correction_preserves_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQuery_gaussian_correction_preserves_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQuery_gaussian_correction_preserves_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.pastQuery_weight_ne_zero_at_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialCoefficientLinearMap_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialCombination' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialCombination_coeff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialCombination_iterate_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialCombination_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialFamilyChange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialJetMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialJetMatrix_mulVec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelBasis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelDimension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelFamily_annihilated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelFamily_degree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelFamily_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelFamily_span_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelForbiddenSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelForbiddenSet_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelForbiddenSet_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelForbiddenSet_contains_query' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialKernelForbiddenSet_contains_wronskian_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.polynomialKernelSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialNestedBasis_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialOfCoefficientsLinearMap_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialOfCoefficients_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialOfCoefficients_coefficientVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialOfCoefficients_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialRootFactor_dvd_iff_le_roots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialRootFactor_dvd_of_coeff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialScalarObservations' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskianMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskianMatrix_familyChange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_affine_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_basis_change' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_basis_degree_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_basis_eval_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_basis_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_changed_monomials' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_changed_monomials_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_coeff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_eq_nonzero_constant_iff_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_eval_eq_zero_iff_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_eval_eq_zero_iff_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_eval_eq_zero_iff_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_familyChange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_familyChange_degree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_familyChange_eval_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_has_root_iff_span_ne_degreeLT' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_leadingCoeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_monomials' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_monomials_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_natDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_natDegree_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_natDegree_eq_zero_iff_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_natDegree_le_rootCountBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_ne_zero_of_injective_natDegree' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.polynomialWronskian_ne_zero_of_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_uniform_localization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_uniform_localization_basis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_uniform_localization_normalized' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.polynomialWronskian_uniform_localization_unitDisc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomialWronskian_update_add_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_affine_family_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_divByMonic_X_sub_C_of_degree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_prod_degreeBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_tendsto_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_tendsto_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_tendsto_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_tendsto_finsetProd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_tendsto_finsetSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_tendsto_iterate_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_tendsto_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coeff_tendsto_of_coefficientVector_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.polynomial_coeff_tendsto_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_coefficientVector_linearIndependent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_degreeLT_finrank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_derivative_eval_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_derivative_norm_le_sqrt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_derivative_norm_lt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_det_coeff_degreeBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_det_natDegree_le_degreeBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_divByMonic_X_sub_C_coeff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_eval_comparison_of_roots_away' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_eval_sub_constant_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_eval_tendsto_of_coeff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_eventually_has_nearby_mem_roots_of_coeff_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.polynomial_eventually_has_nearby_root_of_coeff_tendsto' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.polynomial_eventually_ne_zero_of_coeff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_independent_card_le_degree_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_inverse_scale_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_inverse_scale_lower_bound_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_jets_vanish_iff_multiplicity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_natDegree_le_of_coeff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_natDegree_le_of_mem_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_observation_recomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_product_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_real_im_decomposition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_real_or_im_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_retains_roots_counted_with_multiplicity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.polynomial_root_factor_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_roots_in_closedDisc_of_coeff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_scaled_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_value_lower_bound_of_root_distances' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_value_lower_bound_of_root_distances_exponents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.polynomial_weighted_derivative_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.polynomial_weighted_derivative_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.projected_norm_mono_subspace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.projected_sensitivity_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.queryNodes_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.queryNodes_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.query_order_le_maxQueryOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realCoefficientVector_norm_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realCoefficientVector_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realInverseCoefficientMap_parameterPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realInverseConstantScale_norm_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realNormalizedPolynomialDirection_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realNormalizedPolynomialDirection_lower_bound_exponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.realNormalizedPolynomialDirection_mem_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realNormalizedPolynomialDirection_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realNormalizedPolynomialDirection_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realNormalizedPolynomialDirection_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realParameterPolynomialMap_inverseCoefficientMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realParameterPolynomialMap_inverse_coefficients' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realPartPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realPartPolynomial_annihilated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realPartPolynomial_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realPartPolynomial_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.realPolynomialEvaluationVector_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.real_iteratedDeriv_limit_eq_of_eventually_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.real_iteratedDeriv_limit_mem_Icc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.real_kernel_projected_sensitivity_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.real_kernel_projected_sensitivity_lower_bound_exponents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.real_minimum_degree_is_complex_minimum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.real_minimum_degree_kernel_value_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.real_minimum_degree_kernel_value_lower_bound_exponents' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.real_polynomial_kernel_projected_sensitivity_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.real_polynomial_kernel_projected_sensitivity_lower_bound_exponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.real_polynomial_map_annihilated' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.real_polynomial_map_natDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.real_polynomial_map_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.reference_sub_value_div_le_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.root_displacement_le_projected_sensitivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.root_displacement_of_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.root_factor_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.root_le_reference_sub_value_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.root_motion_inside_parameterBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.root_parameterBall_image_contains_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.root_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.root_radius_lower_bound_of_wronskian_avoidance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.root_segment_image_contains_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarGroupAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarGroupAt_groupSlotEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarGroupAt_lt_prefix_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarGroupAt_offset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarPrefixKernel' depends on axioms: [propext, Quot.sound]
+'KungTraub.scalarPrefixKernel_antitone' depends on axioms: [propext, Quot.sound]
+'KungTraub.scalarPrefixKernel_succ' depends on axioms: [propext, Quot.sound]
+'KungTraub.scalarPrefixKernel_zero' depends on axioms: [propext, Quot.sound]
+'KungTraub.scalarPrefixMap' depends on axioms: [propext, Quot.sound]
+'KungTraub.scalarPrefixMap_apply' depends on axioms: [propext, Quot.sound]
+'KungTraub.scalarPrefixRank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarPrefixRank_add_finrank_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarPrefixRank_le_length' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarPrefixRank_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarPrefixRank_succ_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarPrefixRank_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalarPrefixRestriction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalar_entireCounterexample_constructed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalar_gaussianStageExtensionAvailable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.scalar_simultaneousEntireCounterexample_constructed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.scaled_ratio_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sensitivityPolynomialConstant_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sensitivityPolynomialConstant_le_selected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sensitivityPolynomialConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sensitivityStageCoefficient_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sensitivity_inside_half_parameterBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.separation_retained_after_motion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.shiftedWronskianRoots' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.shiftedWronskianRoots_basis_independent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.shiftedWronskianRoots_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.shiftedWronskianRoots_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.shiftedWronskianRoots_eq_empty_of_full_span' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.shiftedWronskianRoots_eq_of_span_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.simultaneousEntireCounterexample_of_gaussian_stages' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.simultaneous_entire_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.simultaneous_ratio_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.stage_bounds_imply_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.stage_error_ratio_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.stage_root_error_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.strictMono_of_uniform_derivative_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sum_budget_range_le_one_sixteenth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sum_groupedScalarExponent_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sum_groupedScalarExponent_prefix_eq_weighted_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sum_groupedScalarExponent_selected_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sum_orderBound_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sum_orderBound_range' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sum_orderBound_range_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sum_orderBound_selected_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.sum_powers_le_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.summable_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.tendstoLocallyUniformly_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.tendstoLocallyUniformly_sum_of_disc_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.tendsto_real_iteratedDeriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.truncated_distance_scale_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.tsum_budget_le_one_sixteenth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.tsum_budget_le_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.tsum_budget_tail_le_twice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.uniformWronskianConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.uniformWronskianConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.uniformWronskianConstant_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.value_div_le_distance_to_zero_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.weightedPolynomialWronskianMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.weightedPolynomialWronskianMatrix_det' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.weightedPolynomialWronskianMatrix_top_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.weighted_polynomial_inverse_scale_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.weighted_polynomial_inverse_scale_lower_bound_exponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraub.wronskianLocalizationConstant_le_uniform' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.wronskianLocalizationConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.wronskianLocalizationConstant_spec' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.wronskianRootCountBound' depends on axioms: [propext]
+'KungTraub.wronskian_dimension_product_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraub.zero_displacement_le_perturbation_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAdversarialStages' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAdversarialStages.counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAdversarialStages.run_eq_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.actualLinearMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.actualLinearMap_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.actualObservation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.actualObservation_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.actual_location_mem_forbiddenSet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.direction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.direction_antitone' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.direction_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.direction_eq_on_parameterBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.direction_eq_polynomial_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.direction_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.direction_succ_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.direction_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.exists_error_ge_of_root_disc' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.exists_next_ball_avoiding_finite_set' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.finrank_direction_ge' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.finrank_sub_direction_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.forbiddenSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.forbiddenSet_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.forbiddenSet_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.forbiddenSet_eq_on_parameterBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.informationRank' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.informationRank_le_length' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.informationRank_succ_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.normalized_polynomial_direction_mem' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.parameterBall_next_subset' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.polynomialObservation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.polynomialObservation_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.polynomialObservation_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.polynomialObservation_parameterPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.prefix_add_eq_of_mem_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.prefix_eq_iff_linear_equations' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.prefix_eq_iff_sub_mem_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.prefix_eq_of_later_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.prefix_eq_on_parameterBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.projected_sensitivity_of_polynomial_forbidden_avoidance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.queryLocation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.queryLocation_eq_of_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.query_eq_on_parameterBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.rank_add_finrank_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.root_ne_actual_location_of_avoidance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.run' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.run_add_eq_of_mem_direction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineAlgorithm.run_eq_on_parameterBall' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAffineObservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineObservation.answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAffineObservation.answer_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.ExecutionIn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.actualQuery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.actualQuerySet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.actualQuerySet_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.complexCorrectionFamily_actual_location' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.complexCorrectionFamily_run' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.complexFiniteAffineFamily_run' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.complexPolynomialFamily_run' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.mem_actualQuerySet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.mem_queryHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.prefix_eq_of_actual_answers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.queryHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.queryHistory_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.queryHistory_covers_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.queryHistory_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.queryHistory_nodes_card_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.queryHistory_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.queryHistory_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.run' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.run_eq_entire_limit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.run_eq_of_actual_answers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.toAffine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.toAffine_actual_location_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.toAffine_prefix_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexAlgorithm.toAffine_run_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexCorrectionSmall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexEntireCounterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexEntireCounterexample.not_complexUniversalLocalOrder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexFiniteRootFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexFiniteRootFamily.affine_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexFiniteRootFamily.exists_large_error' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexFiniteRootFamily.finite_adversary' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexFiniteRootFamily.initial_sensitivity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexFiniteRootFamily.next_ball' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexFiniteRootFamily.projected_root_disc_contained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexFiniteRootFamily.root_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexFiniteRootFamily.vector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexHistory.Extends' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexHistory.budget_headroom' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexHistory.current_budget_small' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexHistory.current_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexHistory.exists_extension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexHistory.history_nodes_nonzero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexHistory.partial_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexHistory.update_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexLocalOrderAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexPolynomialDiscBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.entire' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.eventual_disc_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.exists_unique_simple_root' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.finite_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.finite_tail_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.limit_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.limit_tail_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.locally_uniform_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.partial_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.root_displacement' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageBounds.value_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageChoice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageChoice.error_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexPolynomialStageChoice.exists_next_budget' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.ComplexQuery.answer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexQuery.location' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexStageEntry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexStageExtensionAvailable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexUniversalLocalOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexWitnessData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.ComplexWitnessData.simpleComplexRoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.coefficient_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.step_error_product' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.step_error_ratio' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.step_error_ratio_lt_half' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.step_lt_each' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.step_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.step_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.step_snoc_injective' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.step_strict_contraction' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.tail_analysis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.tree_analysis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.InverseHermiteLocalData.zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.OrderedVanishingJets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.OrderedVanishingJets.value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.DefinedNear' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.ExecutionIn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.LocalOrderAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.UniversalLocalOrder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.executionIn_totalExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.exists_entire_not_localOrder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.localOrderAt_totalExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.localOrderAt_totalExtension_iff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.not_localOrderAt_of_divergence' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.run' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.totalExtension' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.totalExtension_actualQuery_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.totalExtension_prefix_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.totalExtension_run_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.PartialComplexAlgorithm.universalLocalOrder_totalExtension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.RealIntervalUniversalLocalOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.RealIntervalUniversalLocalOrder.analyticUniversalLocalOrder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.SimpleComplexRoot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.analyticAt_dslope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.analyticAt_log_one_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.analyticAt_log_one_add_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.analyticAt_nodeProduct' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.analyticOnNhd_log_one_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.analytic_exists_iteratedDeriv_zero_of_double_node' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.analytic_iteratedDeriv_continuousOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.chosenComplexBudget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.chosenComplexBudget_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.chosenComplexEntry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.chosenComplexEntry_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.chosenComplexFunction_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.chosenComplexOutput_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexBilinearDot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexBilinearDot_eq_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexBilinearDot_eq_projected_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexConjVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexConjVector_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexConjVector_involutive' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexConjVector_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexConstantScaleMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomialBasis' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomial_affine_answer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomial_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomial_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomial_exists_small_scaling' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomial_exists_small_sup_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomial_exists_uniform_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexCorrectionPolynomial_preserves_jet' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexCorrectionSmall_at_old_root' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexCorrectionSmall_vector_deriv_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexCorrectionSmall_vector_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexCorrectionSmall_vector_norm_le_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexCorrectionSmall_weight_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexDerivativeAffineObservation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexDerivativeAffineObservation_answer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexDerivativeAffineObservation_answer_of_analytic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexDerivativeAffineObservation_idle_answer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexDerivativeAffineObservation_location' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexDerivativeObservationLinearMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexDerivativeObservationLinearMap_apply' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexErrorRatio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFamily_attained_closedBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFamily_projected_sensitivity_half_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexFamily_root_displacement' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFamily_root_motion_from_half_ball' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexFiniteAffineFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteAffineFamily_correction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteScaleContraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteScaleContraction_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteScaleErrorConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteScaleErrorConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageGamma' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageGamma_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageRadius_le_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageRadius_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageRadius_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageRadius_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageState' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageState_A_le_weight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageState_A_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageState_c_eq_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageState_c_le_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageState_c_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageState_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStageState_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexFiniteStage_final_error_constant_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexHistoryChain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexHistoryChain_budget_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexHistoryChain_entry_stable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexHistoryChain_extends' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexHistoryFunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexHistoryFunction_congr' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexHistoryFunction_eq_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexHistoryFunction_update_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexHistoryFunction_update_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexHistoryOutput' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexInitialRadius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexInitialRadius_concrete' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexInitialRadius_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexInitialRadius_lipschitz_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexInitialRadius_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexInverseCoefficientMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexInverseCoefficientMap_parameterPolynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexMaxQueryOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexMaxQueryOrder_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexNormalizedPolynomialDirection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexNormalizedPolynomialDirection_mem_kernel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexNormalizedPolynomialDirection_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexNormalizedPolynomialDirection_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexNormalizedPolynomialDirection_value' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexParameterBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterBall_add_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterBall_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterBall_mono_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterBall_nested' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterBall_nested_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterBall_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterBall_subset_closedBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterBall_unit_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterPolynomialMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterPolynomialMap_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexParameterPolynomialMap_inverseCoefficientMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexParameterPolynomialMap_natDegree_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexParameterPolynomialMap_old_root_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPencil_attained_closedBall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPencil_parameter_at_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomialAffineObservation_answer' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialCorrection_exists_finiteRootFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialDiscBound_C_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomialDiscBound_scaled' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomialDiscBound_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomialEvaluationVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomialEvaluationVector_bilinear' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialEvaluationVector_differentiable' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialEvaluationVector_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialEvaluationVector_norm_le_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialEvaluationVector_norm_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialEvaluationVector_norm_sq_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialEvaluationVector_old_root_norm_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialEvaluationVector_old_root_norm_sq_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexPolynomialLimit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomialStage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomialStage_deriv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomialStage_differentiable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomialStage_eq_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomial_add_near_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomial_add_spatial_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPolynomial_iteratedDeriv_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPreservingFactor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPreservingFactor_empty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPreservingFactor_eval_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPreservingFactor_factor_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPreservingFactor_monic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPreservingFactor_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPreservingFactor_query_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexPreservingFactor_scaled_eval_ne_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complexQueryNodes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexQueryNodes_card_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexQueryNodes_mono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexQueryOrderAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexRadiusFactor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexRadiusFactor_le_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexRadiusFactor_motion_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexRadiusFactor_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complexRootDisc_target_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_entireCounterexample_constructed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complex_entire_counterexample' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_family_bracket_at_old_root_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_kernel_projected_sensitivity_lower_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complex_polynomial_observation_recomposition' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complex_projected_norm_mono_subspace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_projected_sensitivity_comparison' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.complex_query_order_le_maxQueryOrder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_root_displacement_le_projected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_root_displacement_of_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_scalarStageExtensionAvailable' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_stage_bounds_imply_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_stage_error_ratio_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.complex_stage_root_error_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.confluentDividedDifference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.confluentDividedDifference_abs_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.confluentDividedDifference_eq_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.confluentDividedDifference_mean_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.confluentDividedDifference_near_diagonal' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.confluentDividedDifference_perm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.confluentDividedDifference_replicate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.confluentDividedDifference_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.continuous_shiftedPolynomial_derivative_eval' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.continuous_shiftedPolynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.count_le_analyticOrderAt_nodeProduct_mul' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.count_ofFn_eq_card_filter' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.deriv_exp_sub_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.deriv_log_one_add_at_exp_sub_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal_derivative_at_node' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal_eval_at_node' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal_eval_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal_monic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal_natDegree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal_top_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal_zero_abs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.doubleNodal_zero_neg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.eq_zero_of_values_and_derivative_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.eventually_injective_nonzero_of_normalized_powers' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.eventually_ne_of_normalized_pow_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.eventually_ne_zero_of_normalized_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.existsUnique_hermiteWithDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.existsUnique_root_open_unit_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_analytic_inverse_at_simple_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_analytic_inverse_interval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_closed_interval_in_analytic_image' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.exists_common_hermite_neighborhood' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_complexAdversarialStages' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_complexAdversarialStages_of_extension' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.exists_complexCorrectionSmall' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_complexPolynomialCorrectionFamily_roots' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.exists_complexPolynomialStageChoice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_complex_unit_direction_attaining_projected_norm' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.exists_complex_weight_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_derivative_ordered_vanishing_jets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.exists_interleaved_derivative_zeros' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_inverseHermiteLocalData' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_iteratedDeriv_zero_of_derivative_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.exists_iteratedDeriv_zero_of_finset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_iteratedDeriv_zero_of_ordered_vanishing_jets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.exists_iteratedDeriv_zero_of_strictMono' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_local_linear_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_mem_avoiding_of_sum_measure_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_mem_closedBall_avoiding_finset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_mem_closedBall_avoiding_of_sum_sq_lt' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.exists_small_hermite_radius' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_uniform_complex_pair_disc_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_unique_simple_root_on_unit_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exists_unit_complex_minimum_degree_kernel_polynomial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.exp_log_one_add_sub_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exp_sub_one_mem_Ioi_neg_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exp_sub_one_normalized_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exponentialHermitePolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exponentialHermitePolynomial_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.exponentialHermiteStep_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.finiteDiscArea_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hasDerivAt_complexBilinearDot' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteDividedDifference_le_uniform_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.hermiteDividedDifference_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteOrderConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteOrderConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteOrderConstant_product_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteOrderConstant_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteOrderConstant_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_degree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_dividedDifference_remainder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_dividedDifference_remainder_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_error_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_error_bound_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_remainder_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_singleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermiteWithDerivative_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermite_derivative_image_bddAbove' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermite_initial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.hermite_remainder_at_new_point' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.identity_sub_lipschitz_on_unit_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.index_difference_lt_count_of_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.initialComplexHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.initialComplexHistory_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.initialComplexHistory_vacuous' does not depend on any axioms
+'KungTraubAppendices.instDecidableEqComplexQueryForHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.interleaved_ne_node' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteAlgorithm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteDerivativeBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteDerivativeBound_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteHistory' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteHistory_castSucc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteHistory_exp_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteHistory_exp_eventually_valid' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.inverseHermiteHistory_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteHistory_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteMethod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteTail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteTail_observationCount_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteTail_run_eq_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteTree' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermiteTree_observationCount_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermite_exp_asymptotic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermite_exp_eventually_observationCount_eq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.inverseHermite_exp_eventually_run_eq_history' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.inverseHermite_not_local_order_exp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermite_observationCount_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermite_optimal_universal_exponent' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.inverseHermite_run_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermite_run_eq_history' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermite_two_run' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.inverseHermite_universal_local_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.iterate_derivative_eq_factorial_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.iteratedDeriv_complexFiniteAffineFamily' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.iteratedDeriv_monic_polynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.iteratedDeriv_polynomial_eval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.log_one_add_exp_sub_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.log_one_add_hermite_coefficient_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.mem_complexQueryNodes_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.mul_prod_pow_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.near_identity_bilipschitz_on_unit_disc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_append_coeff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_coefficient_mean_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_dividedDifference_remainder' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.newtonPolynomial_eq_hermiteWithDerivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.newtonPolynomial_eq_mergeSort' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_error_jet_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_jet_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_natDegree_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_ordered_error_jets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_remainder' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonPolynomial_unique_sorted_list' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonRemainderFunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonRemainderFunction_analyticAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.newtonRemainderFunction_eq_dividedDifference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.no_complex_partial_universal_order_above' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.no_complex_universal_order_above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.no_real_interval_universal_order_above' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.nodal_derivative_ne_zero_at_node' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.nonzero_on_unit_circle_of_root_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.norm_complexBilinearDot_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.norm_complexBilinearDot_le_projected' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.norm_complexConjVector' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.norm_complexConjVector_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.norm_le_of_complexBilinearDot_unit_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.normalized_derivative_le_inverseHermiteDerivativeBound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.normalized_hermite_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.normalized_log_one_add_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.normalized_log_one_add_derivative_succ_succ' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.normalized_pow_tendsto_zero_of_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.not_complexLocalOrderAt_of_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.not_localOrderAt_zero_of_normalized_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.not_local_power_bound_of_normalized_limit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.one_add_sum_fin_pow_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.one_add_sum_range_pow_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.one_le_inverseHermiteDerivativeBound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.polynomial_eq_zero_of_ordered_jets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.polynomial_top_coeff_zero_of_ordered_jets' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.realExecutionIn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.realExecutionIn_of_tree_execution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.realTreeExecutionIn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.realTreeExecutionIn_paddedQuery' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.scaled_complexCorrectionPolynomial_dvd' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.scaled_complexCorrectionPolynomial_eq_basis_sum' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.scaled_complexCorrectionPolynomial_eval_bilinear' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.scaled_complexCorrectionPolynomial_jet_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.sharpnessCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.sharpnessCoefficient_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.sharpnessCoefficient_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.sharpnessCoefficient_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.sharpness_history_eventually_injective_nonzero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KungTraubAppendices.shiftedPolynomial_exists_disc_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.tendsto_exp_sub_one_div' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KungTraubAppendices.tendsto_zero_of_normalized_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
