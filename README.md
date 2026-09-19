@@ -1,6 +1,7 @@
 # Kung–Traub in Lean
 
-A Lean formalization of Matthew J. Colbrook's *Adversarial Wronskians: A proof of the Kung–Traub conjecture*, including the main real theorem, the grouped-observation corollary, inverse Hermite attainment and sharpness, and the complex-observation theorem.
+A Lean formalization of Matthew J. Colbrook's *Adversarial Wronskians: A proof of the Kung–Traub conjecture*, including the main real theorem, the grouped-observation corollary, inverse Hermite attainment and sharpness, and the complex-observation theorem. The paper can be found here:
+https://zenodo.org/records/22850057
 
 For deterministic stationary methods without memory, the formalization proves the scalar upper bound `2^(n-1)` for `n ≥ 1`. It constructs the inverse Hermite method attaining this exponent for `n ≥ 2`, and proves the corresponding upper bound for complex derivative observations. The [mathematical overview](docs/Mathematics.md) gives the precise domains, quantifiers and theorem locations.
 
