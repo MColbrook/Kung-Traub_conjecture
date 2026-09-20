@@ -3,27 +3,38 @@ version: v0.4
 project:
   name: Kung–Traub in Lean
   description: >-
-    The Kung–Traub scalar upper bound, the prescribed-group corollary,
-    inverse Hermite attainment and exact order, and the complex-observation
-    upper bound, together with their supporting constructions.
+    For deterministic stationary root-finding methods without memory, the
+    Kung–Traub bound 2^(n-1) for n >= 1 real or complex scalar derivative
+    observations, the bound given by the first group size times the product
+    of one plus each subsequent size for prescribed positive groups, and
+    entire counterexamples, including one real witness
+    defeating every larger real exponent simultaneously. A concrete inverse
+    Hermite method attains 2^(n-1) for n >= 2 on open real intervals and has
+    that exact order on exp(x)-1. Supporting constructions are included.
   authors:
-    - Matthew J. Colbrook (mathematical author and project direction)
+    - Matthew J. Colbrook
   responsible_maintainers:
     - Matthew J. Colbrook
-  license: All rights reserved; third-party components retain their own licences
+  license: Apache-2.0
 repository:
   url: https://github.com/MColbrook/Kung-Traub_conjecture
   role: substantive-development
 sources:
   - title: 'Adversarial Wronskians: A proof of the Kung–Traub conjecture'
     authors: [Matthew J. Colbrook]
-    type: unpublished manuscript
+    id: https://doi.org/10.5281/zenodo.22850057
+    type: paper
     location: Main theorem, prescribed-group corollary, supporting results, and Appendices A–B
     relationship: formalizes
     author_endorsement: participated
+    note: >-
+      Version-specific Zenodo record published 2026-09-19. The source paper
+      presents the mathematical argument formalized here; this repository
+      does not claim to be the first presentation of the result.
   - title: Optimal order of one-point and multipoint iteration
     authors: [H. T. Kung, J. F. Traub]
-    type: journal article
+    id: https://doi.org/10.1145/321850.321860
+    type: paper
     relationship: background
     note: >-
       Journal of the ACM 21(4) (1974), 643–651. The manuscript attributes
@@ -31,18 +42,21 @@ sources:
   - title: Divided differences
     authors: [C. de Boor]
     id: arXiv:math/0502036
-    type: journal article
+    type: paper
     location: Section 8, equation (44)
     relationship: background
     note: >-
       Surveys in Approximation Theory 1 (2005), 46–69. Source of the
       divided-difference estimate cited in the manuscript.
-  - title: mathlib4
-    authors: [The mathlib community]
-    id: https://github.com/leanprover-community/mathlib4/tree/0df444a360eaa60ab8c11dca51a86af692955474
-    type: Lean library
-    relationship: background
-    license: Apache-2.0
+related_formalizations:
+  - id: https://github.com/leanprover-community/mathlib4/tree/0df444a360eaa60ab8c11dca51a86af692955474
+    relationship: builds-on
+    note: >-
+      Reuses the mathlib community's formal algebra, analysis, topology,
+      interpolation, and inverse-function results. Specific reused results
+      and contributors are credited in source comments. Mathlib is a pinned
+      software dependency licensed under Apache-2.0, not a source paper for
+      the Kung–Traub upper-bound proof.
 classification:
   arxiv: [math.NA]
   msc2020: [65H05]
@@ -55,7 +69,20 @@ environment:
 automation:
   methods:
     - method: other
-      tool_setup: Lean tactic proofs and kernel checking
+      models: [ChatGPT 6]
+      tool_setup: >-
+        Assistance with the Lean formalization, as disclosed in the source
+        paper. Proofs are expressed in Lean and checked by its kernel.
+    - method: other
+      models: [ChatGPT 5.6, ChatGPT 6]
+      tool_setup: >-
+        Interactive assistance in discussing and checking mathematical
+        arguments, as disclosed in the source paper.
+  notes: >-
+    Matthew J. Colbrook reviewed and adopted the mathematical arguments,
+    statements, and proofs and takes responsibility for the work. The model
+    labels and roles reproduce the paper's disclosure; no prompt logs,
+    costs, or unrecorded workflow details are asserted.
 status:
   scope: >-
     Complete proofs of the real scalar upper bound and prescribed-group
@@ -67,6 +94,12 @@ status:
     rules, Wronskian localization, finite adversaries, entire limits,
     interpolation remainders, and optimality of the interval-local exponent.
   phase: complete
+  proof_status_scope: >-
+    The proof-hole counts concern solution modules in the import closure of
+    All. Deliberate statement placeholders in Challenge, PalomarChallenge,
+    and supporting reference modules are excluded. The named-theorem and
+    axiom-inventory counts below describe the recorded release audit;
+    fresh Palomar verification of the prepared snapshot is pending.
   sorry_count: 0
   sorry_in_definitions: 0
   axioms: [propext, Classical.choice, Quot.sound]
@@ -79,76 +112,79 @@ status:
       file: Solution.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraub.no_entire_universal_order_above
       file: Solution.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraub.no_universal_order_above
       file: Solution.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraub.grouped_entire_counterexample
       file: Solution.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraub.no_grouped_entire_universal_order_above
       file: Solution.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraub.no_grouped_universal_order_above
       file: Solution.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraub.simultaneous_entire_counterexample
       file: Solution.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraubAppendices.complex_entire_counterexample
       file: KungTraubAppendices/ComplexConclusion.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraubAppendices.no_complex_universal_order_above
       file: KungTraubAppendices/ComplexConclusion.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraubAppendices.inverseHermite_universal_local_order
       file: KungTraubAppendices/HermiteLocalOrder.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraubAppendices.inverseHermite_exp_asymptotic
       file: KungTraubAppendices/ExponentialAsymptotic.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
     - declaration: KungTraubAppendices.inverseHermite_not_local_order_exp
       file: KungTraubAppendices/SharpnessConclusion.lean
       sorry_count: 0
       axioms: [propext, Classical.choice, Quot.sound]
-      comparator_config: Verification/principals.json
+      comparator_config: Verification/palomar-principals.json
       literature_dependencies: []
 verification:
+  report_scope: historical-release-snapshot
   report: Verification/Results/results.json
+  comparator_revision: 3927ad383f208ae977c340a91c48ac9b497d2097
+  enable_nanoda: false
   axiom_inventory: Verification/Axioms.lean
   axiom_check_command: python3 scripts/check_axioms.py
   comparison_configs:
@@ -161,6 +197,20 @@ verification:
     - file: Verification/complex-support.json
       target_count: 922
   distinct_comparison_target_count: 1058
+  palomar:
+    comparator_config: Verification/palomar-principals.json
+    challenge_module: PalomarChallenge
+    solution_module: All
+    principal_result_count: 12
+    enable_nanoda: true
+    workflow_status: not-yet-passed
+    submission_status: not-submitted
+    instructions: docs/Palomar.md
+    notes: >-
+      The standalone Challenge and selected configuration prepare the twelve
+      principal statements for Palomar. The historical report does not
+      certify these additions or a fresh Palomar pipeline with independent
+      NanoDa replay. No registration or endorsement is claimed.
 alignment:
   main_theorem:
     - KungTraub.entire_counterexample
@@ -179,7 +229,48 @@ alignment:
     - KungTraubAppendices.complex_entire_counterexample
     - KungTraubAppendices.no_complex_universal_order_above
   mathematical_overview: docs/Mathematics.md
+  principal_statement_account: README.md
+  palomar_comparator_config: Verification/palomar-principals.json
 fidelity:
+  observation_and_order_model: >-
+    Rules depend only on the start and earlier answers, have no access to
+    the input function or root, and retain no state between updates. One
+    derivative value of arbitrary natural order costs one observation;
+    order zero is a function value and idle padding has no location or cost.
+    One complex value counts as one complex observation. There are no
+    continuity, measurability, or computability assumptions on the rules.
+    Local constants precede every sufficiently close nonroot start and
+    cannot depend on that individual start. Universal properties quantify
+    over all inputs and simple roots. Local-domain statements additionally
+    require every actual query to stay in the stated input domain.
+  partial_rules: >-
+    Principal counterexamples use total fixed-budget rules. Supporting
+    theorems preserve early-stopping outputs by padding and preserve every
+    defined execution of partial rules under arbitrary total extension.
+    Partial local order requires defined output at every sufficiently close
+    nonroot start. Transferring a total extension's local order back requires
+    this full neighborhood of definition; a counterexample for an extension
+    does not alone assert defined partial execution on its witness sequence.
+  quantifiers_and_domains: >-
+    Scalar upper bounds require n >= 1 and every real p > 2^(n-1).
+    Grouped bounds require k >= 1 and fixed positive sizes, with queries in
+    each group selected from earlier groups alone; p exceeds the first size
+    times the product of one plus each subsequent size. Real witnesses are
+    entire real-type functions with globally 3/4 <= f' <= 5/4, a unique real
+    zero, and independent nonroot starts converging to it with error ratios
+    tending to positive infinity. They need not be iteration orbits.
+    The simultaneous result fixes one function, root, and sequence before
+    quantifying over every larger real exponent. Complex witnesses are
+    entire with norm(f'(z)-1) <= 1/4 on the closed unit disc, a zero strictly
+    inside and unique in that disc, and divergent norm-based error ratios.
+    Global uniqueness of complex zeros is not asserted. The complex
+    universal-order consequence covers arbitrary open holomorphic domains.
+    Attainment requires n >= 2 and covers analytic inputs on arbitrary open
+    real intervals with query admissibility. The exponential asymptotic is
+    two-sided, has denominator x^(2^(n-1)) and positive coefficient kappa_(n-1),
+    with kappa_0=1, kappa_1=1/2, and kappa_(j+1)=product(kappa_i,i=1..j)/(j+2).
+    Every larger real exponent fails for the same algorithm and exponential
+    input. README.md describes each of the twelve selected declarations.
   divergences: >-
     The real counterexamples are restrictions of entire functions that take
     real values on the real axis; consequences for the whole-line real-analytic
@@ -191,12 +282,16 @@ fidelity:
     the same value and derivative bounds, with the same discs and conclusions,
     in place of Rouché's theorem. Stage indices are zero-based.
 review:
-  status: kernel-checked
+  status: author-verified
   notes: >-
-    A clean Linux build, the explicit 1,202-declaration axiom audit and all four
-    secure Comparator configurations passed. The actual commands, source
-    hashes and results appear in Verification/Results/results.json;
-    docs/Verification.md gives the checking instructions.
+    The source paper records Matthew J. Colbrook's review and adoption of
+    the arguments, statements, and proofs. This is an author review, not a
+    claim of independent mathematical peer review. The recorded release
+    snapshot passed a clean Linux build, the 1,202-declaration axiom audit,
+    and four secure Comparator configurations with NanoDa disabled. Commands,
+    source hashes, and results appear in Verification/Results/results.json.
+    Those historical results do not certify later edits. The full Palomar
+    workflow for this prepared snapshot has not yet passed; see docs/Palomar.md.
 acknowledgements: >-
   The formalization uses Mathlib throughout. Mathematical source attribution
   and the specific library results used appear in the source module comments

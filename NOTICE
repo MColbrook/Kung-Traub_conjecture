@@ -1,0 +1,13 @@
+Kung–Traub in Lean
+Copyright 2026 Matthew J. Colbrook
+
+This formalization accompanies "Adversarial Wronskians: A proof of the
+Kung–Traub conjecture" by Matthew J. Colbrook.
+Paper: https://doi.org/10.5281/zenodo.22850057
+Repository: https://github.com/MColbrook/Kung-Traub_conjecture
+
+The original material in this repository is licensed under the Apache License,
+Version 2.0. Third-party material retains its original copyright, licence,
+and attribution notices. Lean and Mathlib are separately distributed
+dependencies; their contributors and licences are acknowledged in COPYRIGHT.md
+and the source files.

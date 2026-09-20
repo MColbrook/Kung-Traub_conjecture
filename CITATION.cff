@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: >-
+  Please cite the accompanying paper when using this formalization or its
+  mathematical results. The preferred citation below identifies the paper.
+type: software
+title: Kung–Traub in Lean
+authors:
+  - family-names: Colbrook
+    given-names: Matthew J.
+repository-code: https://github.com/MColbrook/Kung-Traub_conjecture
+license: Apache-2.0
+preferred-citation:
+  type: generic
+  title: 'Adversarial Wronskians: A proof of the Kung–Traub conjecture'
+  authors:
+    - family-names: Colbrook
+      given-names: Matthew J.
+  doi: 10.5281/zenodo.22850057
+  url: https://zenodo.org/records/22850057
+  year: 2026

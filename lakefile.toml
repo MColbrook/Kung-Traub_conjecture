@@ -26,6 +26,9 @@ name = "All"
 name = "Challenge"
 
 [[lean_lib]]
+name = "PalomarChallenge"
+
+[[lean_lib]]
 name = "support_reference"
 srcDir = "Verification/References"
 

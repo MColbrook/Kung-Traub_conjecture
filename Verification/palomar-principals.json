@@ -1,0 +1,25 @@
+{
+  "challenge_module": "PalomarChallenge",
+  "solution_module": "All",
+  "theorem_names": [
+    "KungTraub.entire_counterexample",
+    "KungTraub.no_entire_universal_order_above",
+    "KungTraub.no_universal_order_above",
+    "KungTraub.grouped_entire_counterexample",
+    "KungTraub.no_grouped_entire_universal_order_above",
+    "KungTraub.no_grouped_universal_order_above",
+    "KungTraub.simultaneous_entire_counterexample",
+    "KungTraubAppendices.complex_entire_counterexample",
+    "KungTraubAppendices.no_complex_universal_order_above",
+    "KungTraubAppendices.inverseHermite_universal_local_order",
+    "KungTraubAppendices.inverseHermite_exp_asymptotic",
+    "KungTraubAppendices.inverseHermite_not_local_order_exp"
+  ],
+  "definition_names": [],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
