@@ -21,13 +21,6 @@ noncomputable section
 
 namespace KungTraub
 
-/-- An observation tree of depth at most `n`. A leaf may occur at any depth;
-continuation branches receive only the answer to the selected query. -/
-inductive BoundedRealTree : ℕ → Type where
-  | stop {n : ℕ} (value : ℝ) : BoundedRealTree n
-  | observe {n : ℕ} (query : RealQuery) (next : ℝ → BoundedRealTree n) :
-      BoundedRealTree (n + 1)
-
 /-- Execution of a bounded tree stops as soon as a leaf is reached. -/
 def BoundedRealTree.run : {n : ℕ} → BoundedRealTree n → (ℝ → ℝ) → ℝ
   | _, .stop y, _ => y
@@ -48,20 +41,6 @@ theorem BoundedRealTree.observationCount_le {n : ℕ} (tree : BoundedRealTree n)
   | observe q next ih =>
     have h := ih (q.answer f)
     cases q <;> simp only [observationCount] <;> omega
-
-/-- The padded query at a scalar position. At a leaf every remaining query is idle. -/
-def BoundedRealTree.paddedQuery : {n : ℕ} → BoundedRealTree n →
-    (j : Fin n) → (Fin j.val → ℝ) → RealQuery
-  | _, .stop _, _ => fun _ => .idle
-  | _, .observe q next, j =>
-      Fin.cases (fun _ => q)
-        (fun i history =>
-          (next (history ⟨0, Nat.succ_pos i.val⟩)).paddedQuery i (Fin.tail history)) j
-
-/-- The padded output recovers the original leaf from the supplied scalar answers. -/
-def BoundedRealTree.paddedOutput : {n : ℕ} → BoundedRealTree n → (Fin n → ℝ) → ℝ
-  | _, .stop y, _ => y
-  | _, .observe _ next, history => (next (history 0)).paddedOutput (Fin.tail history)
 
 /-- The true answer vector completed by zeros after termination. -/
 def BoundedRealTree.paddedAnswers : {n : ℕ} → BoundedRealTree n →
@@ -94,19 +73,9 @@ theorem BoundedRealTree.paddedOutput_answers {n : ℕ} (tree : BoundedRealTree n
     simpa only [paddedOutput, paddedAnswers, Fin.cons_zero, Fin.tail_cons, run] using
       ih (q.answer f)
 
-/-- A stationary stopping algorithm chooses its bounded decision tree from the starting
-point alone. No input function or distinguished root is supplied to it. -/
-abbrev StoppingRealAlgorithm (n : ℕ) := ℝ → BoundedRealTree n
-
 /-- The output of the bounded stopping algorithm on an input function. -/
 def StoppingRealAlgorithm.run {n : ℕ} (A : StoppingRealAlgorithm n)
     (f : ℝ → ℝ) (x : ℝ) : ℝ := (A x).run f
-
-/-- Fixed-length scalar representation, padding terminated branches by idle queries. -/
-def StoppingRealAlgorithm.padded {n : ℕ} (A : StoppingRealAlgorithm n) :
-    RealAlgorithm n where
-  query j x history := (A x).paddedQuery j history
-  output x history := (A x).paddedOutput history
 
 /-- Every prefix of the padded execution is the corresponding true answer prefix. -/
 theorem StoppingRealAlgorithm.padded_prefix {n : ℕ} (A : StoppingRealAlgorithm n)

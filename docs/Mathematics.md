@@ -14,7 +14,16 @@ For an update `T`, local order `p` at a simple zero `α` means that there are `C
 
 Complex statements use norms in the same estimate. The constants may depend on the fixed method, function, root and exponent. The estimate applies to every start in a punctured neighbourhood. Witness sequences are sequences of independent starting points. Local-domain predicates additionally require defined, admissible executions throughout that neighbourhood.
 
-The definitions are in [KungTraub/Definitions.lean](../KungTraub/Definitions.lean), [SharpnessDefinitions.lean](../KungTraubAppendices/SharpnessDefinitions.lean) and [ComplexDefinitions.lean](../KungTraubAppendices/ComplexDefinitions.lean).
+The shared definitions are collected in [KungTraub/Model.lean](../KungTraub/Model.lean):
+
+| Model section | Definitions to inspect |
+| --- | --- |
+| Opening real and grouped models, in the first `KungTraub` namespace | `orderBound`, `RealAlgorithm`, `GroupedRealAlgorithm`, local-order predicates, entire witnesses and counterexamples, through `SimultaneousEntireCounterexample`. |
+| “The bounded tree and padding used by the attaining method” | `BoundedRealTree`, `paddedQuery`, `paddedOutput`, `StoppingRealAlgorithm` and its `padded` fixed-slot representation. |
+| “Complex observations and local domains” | `ComplexQuery`, `ComplexAlgorithm`, admissible executions, local-order predicates, witness data and `ComplexEntireCounterexample`. |
+| “The concrete inverse Hermite update” | The `hermiteWithDerivative` formula, `inverseHermiteTail`, `inverseHermiteTree`, `inverseHermiteAlgorithm`, interval admissibility and order, and `sharpnessCoefficient`. |
+
+[Definitions.lean](../KungTraub/Definitions.lean), [ComplexDefinitions.lean](../KungTraubAppendices/ComplexDefinitions.lean) and [SharpnessDefinitions.lean](../KungTraubAppendices/SharpnessDefinitions.lean) re-export this model for existing imports. The stopping execution and counting definitions, padding-preservation theorems and partial real rules remain in [LocalAndStoppingAlgorithms.lean](../KungTraub/LocalAndStoppingAlgorithms.lean). The characteristic theorems for the interpolation formula remain in [HermiteInterpolation.lean](../KungTraubAppendices/HermiteInterpolation.lean).
 
 ## Real upper bounds
 

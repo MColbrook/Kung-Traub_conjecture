@@ -73,6 +73,14 @@ The following checks passed on the uncommitted preparation in the Windows checko
 
 These checks cover the preparation files. The complete solution build and axiom audit were not rerun in this preparation; their recorded release results remain historical evidence. The new configuration has not yet passed Comparator, NanoDa, or the full remote workflow. Rerun the relevant checks after further changes and obtain the full report for the eventual public commit before submission.
 
+## First full preflight and shared model
+
+[The first full run](https://github.com/MColbrook/Kung-Traub_conjecture/actions/runs/35506289009), for commit `61ee4ba147cfbf3a04ef2d17d7d3813fd4b9d8b1`, passed the complete Lean solution build and the canonical Challenge provenance audit. Comparator then rejected a mismatch at `KungTraub.RealAlgorithm.run`; NanoDa replay was not reached.
+
+The standalone Challenge's additional Mathlib imports selected a different real normed-space instance in `RealQuery.answer`, which also changed downstream reducibility-height metadata. A complete local comparison then identified differences caused by Lean reusing generated matchers and auxiliary proofs within one file. The pinned Comparator compares exported definitions exactly, so copying source text alone did not ensure a match across different import environments and module boundaries.
+
+The shared model definitions now live together in [`KungTraub/Model.lean`](../KungTraub/Model.lean), with the same Mathlib imports and declaration order as the standalone Challenge. The previous definition modules re-export this model, and the surrounding theorem proofs retain their existing modules. Mathematical definition bodies and theorem statements are unchanged, and no definitions have been exempted from comparison. The static source checker compares the complete shared-model body with the standalone copy. The rebuilt model and both reference modules compile. An independent local comparison of the twelve principal statement closures checked 19,246 declarations, including generated helpers and reducibility metadata, with zero mismatches or missing declarations. This local comparison does not check the solution proofs or replace NanoDa; a fresh full report for the corrected commit is required.
+
 ## Run the full preflight after an approved push
 
 The workflow has only a `workflow_dispatch` trigger: pushing does not start it. It requests read-only repository access, inherits no secrets, and calls the pinned reusable verifier. It contains no Palomar intake, authorization-tag, gist, or registration action.

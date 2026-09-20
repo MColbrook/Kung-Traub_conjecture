@@ -1,3 +1,4 @@
+import KungTraub.Model
 import Mathlib.LinearAlgebra.Lagrange
 import Mathlib.Tactic
 
@@ -18,15 +19,6 @@ open Polynomial
 namespace KungTraubAppendices
 
 variable {𝕜 ι : Type*} [Field 𝕜] [DecidableEq ι]
-
-/-- Interpolate the values at distinct nodes and one prescribed derivative at `i`.
-The formula is total on arbitrary data; its characteristic properties require
-the stated membership and injectivity hypotheses. -/
-def hermiteWithDerivative (s : Finset ι) (nodes values : ι → 𝕜)
-    (i : ι) (d : 𝕜) : 𝕜[X] :=
-  Lagrange.interpolate s nodes values +
-    C ((d - (Lagrange.interpolate s nodes values).derivative.eval (nodes i)) /
-      (Lagrange.nodal s nodes).derivative.eval (nodes i)) * Lagrange.nodal s nodes
 
 /-- Distinct interpolation nodes make the derivative correction denominator nonzero. -/
 theorem nodal_derivative_ne_zero_at_node {s : Finset ι} {nodes : ι → 𝕜}

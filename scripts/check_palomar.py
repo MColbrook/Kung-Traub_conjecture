@@ -32,23 +32,7 @@ THEOREMS = [
     "KungTraubAppendices.inverseHermite_exp_asymptotic",
     "KungTraubAppendices.inverseHermite_not_local_order_exp",
 ]
-PREAMBLES = {
-    "KungTraub/Definitions.lean": (
-        "KungTraub", "noncomputable section open Filter open scoped BigOperators Topology"
-    ),
-    "KungTraub/LocalAndStoppingAlgorithms.lean": ("KungTraub", "noncomputable section"),
-    "KungTraubAppendices/ComplexDefinitions.lean": (
-        "KungTraubAppendices", "noncomputable section open Filter open scoped Topology"
-    ),
-    "KungTraubAppendices/HermiteInterpolation.lean": (
-        "KungTraubAppendices", "noncomputable section open Polynomial"
-    ),
-    "KungTraubAppendices/SharpnessDefinitions.lean": (
-        "KungTraubAppendices", "noncomputable section open scoped BigOperators"
-    ),
-    "Challenge.lean": ("KungTraub", ""),
-}
-
+MODEL = "KungTraub/Model.lean"
 
 def require(condition: bool, message: str) -> None:
     if not condition:
@@ -58,13 +42,6 @@ def require(condition: bool, message: str) -> None:
 def read(path: str) -> str:
     # Universal newline conversion permits Windows and Linux checkouts.
     return (ROOT / path).read_text(encoding="utf-8").rstrip()
-
-
-def between(source: str, start: str, end: str) -> str:
-    require(start in source, f"Missing source marker: {start}")
-    first = source.index(start)
-    require(end in source[first:], f"Missing source marker: {end}")
-    return source[first:source.index(end, first)].rstrip()
 
 
 def namespace_body(path: str, namespace: str) -> str:
@@ -84,75 +61,53 @@ def strip_module_doc(source: str) -> str:
     return source[end + 2:].strip()
 
 
-def check_source_contexts() -> None:
-    for path, (namespace, expected) in PREAMBLES.items():
-        prefix = read(path).split("namespace " + namespace, 1)[0]
-        prefix = re.sub(r"^import [^\n]+\n?", "", prefix, flags=re.MULTILINE).strip()
-        prefix = strip_module_doc(prefix)
-        require(prefix.split() == expected.split(), f"Source declaration context changed: {path}")
-    hermite_prefix = between(
-        read("KungTraubAppendices/HermiteInterpolation.lean"),
-        "namespace KungTraubAppendices", "/-- Interpolate the values"
-    )
-    require(
-        hermite_prefix.split() == (
-            "namespace KungTraubAppendices variable {𝕜 ι : Type*} [Field 𝕜] [DecidableEq ι]"
-        ).split(),
-        "Hermite declaration variables or context changed",
-    )
+def module_parts(path: str) -> tuple[list[str], str]:
+    source = read(path)
+    imports = re.findall(r"^import (.+)$", source, flags=re.MULTILINE)
+    prefix = "\n".join("import " + name for name in imports) + "\n\n"
+    require(source.startswith(prefix), f"Unexpected import/header shape: {path}")
+    return imports, strip_module_doc(source[len(prefix):])
 
 
 def expected_body() -> str:
-    stopping = read("KungTraub/LocalAndStoppingAlgorithms.lean")
-    stopping_blocks = [between(stopping, start, end) for start, end in [
-        ("/-- An observation tree", "/-- Execution of a bounded tree"),
-        ("/-- The padded query", "/-- The true answer vector"),
-        ("/-- A stationary stopping algorithm", "/-- The output of the bounded stopping algorithm"),
-        ("/-- Fixed-length scalar representation", "/-- Every prefix of the padded execution"),
-    ]]
-    hermite = between(
-        read("KungTraubAppendices/HermiteInterpolation.lean"),
-        "/-- Interpolate the values", "/-- Distinct interpolation nodes"
+    _, model_body = module_parts(MODEL)
+    return (
+        model_body + "\n\n/-! ## Principal reference statements -/\n\n"
+        + namespace_body("Challenge.lean", "KungTraub")
     )
-    # Keep namespace, variable, local-instance, recursive-definition, termination,
-    # and theorem contexts intact. The whole generated body must match: extra
-    # declarations outside the copied blocks are rejected too.
-    return "\n".join([
-        "set_option autoImplicit false", "", "noncomputable section", "",
-        "open Filter", "open scoped BigOperators Topology", "",
-        namespace_body("KungTraub/Definitions.lean", "KungTraub"), "",
-        "/-! ## The bounded tree and padding used by the attaining method -/", "",
-        "namespace KungTraub", "",
-        *[line for block in stopping_blocks for line in (block, "")],
-        "end KungTraub", "",
-        "/-! ## Complex observations and local domains -/", "",
-        namespace_body("KungTraubAppendices/ComplexDefinitions.lean", "KungTraubAppendices"), "",
-        "/-! ## The concrete inverse Hermite update -/", "",
-        "namespace KungTraubAppendices", "", "open Polynomial", "",
-        "variable {𝕜 ι : Type*} [Field 𝕜] [DecidableEq ι]", "", hermite, "",
-        "end KungTraubAppendices", "",
-        namespace_body("KungTraubAppendices/SharpnessDefinitions.lean", "KungTraubAppendices"), "",
-        "/-! ## Principal reference statements -/", "",
-        namespace_body("Challenge.lean", "KungTraub"),
-    ])
+
+
+def check_reexports() -> None:
+    expected = {
+        "KungTraub/Definitions.lean": ["KungTraub.Model"],
+        "KungTraubAppendices/ComplexDefinitions.lean": ["KungTraub.Definitions"],
+        "KungTraubAppendices/SharpnessDefinitions.lean": [
+            "KungTraub.Model", "KungTraub.LocalAndStoppingAlgorithms",
+            "KungTraubAppendices.HermiteInterpolation",
+            "Mathlib.Analysis.SpecialFunctions.ExpDeriv",
+        ],
+    }
+    for path, imports in expected.items():
+        actual_imports, body = module_parts(path)
+        require(actual_imports == imports and body == "",
+                f"Legacy definition reexport changed: {path}")
+    require(read("KungTraubAppendices/HermiteInterpolation.lean").startswith("import KungTraub.Model\n"),
+            "Hermite interpolation proofs must import their shared model")
 
 
 def main() -> None:
-    check_source_contexts()
+    check_reexports()
     source = read(CHALLENGE)
-    imports = re.findall(r"^import (.+)$", source, flags=re.MULTILINE)
-    expected_imports = re.findall(
-        r"^import (.+)$", read("KungTraub/Definitions.lean"), flags=re.MULTILINE
-    ) + [
-        "Mathlib.Analysis.SpecialFunctions.ExpDeriv",
-        "Mathlib.LinearAlgebra.Lagrange",
-        "Mathlib.Tactic",
-    ]
-    require(imports == expected_imports, "Challenge imports differ from the reviewed copy recipe")
+    imports, actual_body = module_parts(CHALLENGE)
+    model_imports, model_body = module_parts(MODEL)
+    require(imports == model_imports, "Challenge and model import contexts differ")
     require(all(name.startswith("Mathlib.") for name in imports), "Only Mathlib imports are allowed here")
-    import_prefix = "\n".join("import " + name for name in imports) + "\n\n"
-    require(source.startswith(import_prefix), "Unexpected text before the module documentation")
-    actual_body = strip_module_doc(source[len(import_prefix):])
+    require(model_body.startswith("set_option autoImplicit false\n\nnoncomputable section\n"),
+            "Shared model declaration context changed")
+    require(not re.search(r"\b(?:sorry|admit|axiom)\b", model_body),
+            "Shared model contains a proof-hole/axiom token")
+    require(not re.search(r"^theorem ", model_body, flags=re.MULTILINE),
+            "Shared model must contain only the concrete model declarations")
     require(actual_body == expected_body(), "Challenge body differs from the exact source-copy recipe")
 
     statements = namespace_body("Challenge.lean", "KungTraub")
@@ -183,7 +138,7 @@ def main() -> None:
     lines = len(data.decode("utf-8").splitlines())
     require(lines <= 1000, f"Challenge exceeds 1,000 lines: {lines}")
     require(len(data) <= 100 * 1024, f"Challenge exceeds 100 KiB: {len(data)} bytes")
-    print("PASS: exact source copies and declaration contexts; twelve principal statements/placeholders.")
+    print("PASS: exact shared model copy and import context; twelve principal statements/placeholders.")
     print("PASS: Mathlib-only imports, empty definition_names, All solution, NanoDa enabled, Lake target.")
     print(f"PASS: {lines} lines; {len(data)} bytes; SHA-256 {hashlib.sha256(data).hexdigest()}.")
     print("STATIC CHECK ONLY: Lean elaboration, Comparator, NanoDa, and the full Palomar workflow remain required.")

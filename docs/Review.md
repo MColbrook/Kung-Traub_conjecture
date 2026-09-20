@@ -21,7 +21,7 @@ The `sorry` declarations here are reference placeholders. The checked solution i
 
 ## 2. Inspect the real oracle and the meaning of order
 
-Read [KungTraub/Definitions.lean](../KungTraub/Definitions.lean) in full. This is the most important file for the main theorem and corollary.
+Read the opening real and grouped model section of [KungTraub/Model.lean](../KungTraub/Model.lean) in full, from `orderBound` through `SimultaneousEntireCounterexample` in the first `KungTraub` namespace. This is the most important section for the main theorem and corollary.
 
 | Definitions | Mathematical points to verify |
 | --- | --- |
@@ -42,7 +42,7 @@ Next read the statements in [Consequences.lean](../KungTraub/Consequences.lean) 
 
 ## 3. Check stopping and partial rules
 
-Read the definitions and theorem statements in [LocalAndStoppingAlgorithms.lean](../KungTraub/LocalAndStoppingAlgorithms.lean), especially:
+Read the section “The bounded tree and padding used by the attaining method” in [Model.lean](../KungTraub/Model.lean), including `BoundedRealTree`, `paddedQuery`, `paddedOutput`, `StoppingRealAlgorithm` and `StoppingRealAlgorithm.padded`. Read these alongside the execution and counting definitions, preservation theorems and partial rules in [LocalAndStoppingAlgorithms.lean](../KungTraub/LocalAndStoppingAlgorithms.lean). In particular, check:
 
 - `BoundedRealTree`, `observationCount` and `observationCount_le`;
 - `StoppingRealAlgorithm.padded` and `padded_run_eq`;
@@ -55,7 +55,7 @@ These definitions and preservation results justify representing the paper's stop
 
 ## 4. Check Appendix A: the actual attaining method
 
-Read [SharpnessDefinitions.lean](../KungTraubAppendices/SharpnessDefinitions.lean) in full, together with the definition and characteristic theorem statements of `hermiteWithDerivative` in [HermiteInterpolation.lean](../KungTraubAppendices/HermiteInterpolation.lean).
+Read the section “The concrete inverse Hermite update” in [Model.lean](../KungTraub/Model.lean) in full, from the `hermiteWithDerivative` formula through `sharpnessCoefficient`. Read the characteristic theorem statements of `hermiteWithDerivative` in [HermiteInterpolation.lean](../KungTraubAppendices/HermiteInterpolation.lean) alongside that formula.
 
 Follow one execution of `inverseHermiteTree` and `inverseHermiteTail`: the initial observations are `f(x)` and `f′(x)`; subsequent observations are function values. The inverse interpolation nodes are observed values, their ordinates are the corresponding query locations, and the derivative datum is `1/f′(x)`. The next location is the interpolant evaluated at zero. A queried zero causes immediate stopping; the final output requires no extra observation.
 
@@ -72,13 +72,13 @@ Inspect these statements:
 | [SharpnessConclusion.lean](../KungTraubAppendices/SharpnessConclusion.lean) | Every strictly larger real exponent fails for that same example and algorithm. |
 | [IntervalOptimalOrder.lean](../KungTraubAppendices/IntervalOptimalOrder.lean) | Attainment and impossibility are combined in the same interval-local model, for the same observation budget. |
 
-Expand `RealIntervalUniversalLocalOrder` in `SharpnessDefinitions.lean`: it requires both the error estimate and membership of every actual query location in the input interval, throughout a full punctured neighbourhood. The analytic input hypothesis is local to the interval. Lean represents the function by a total map, but no analyticity outside that interval is assumed.
+Expand `RealIntervalUniversalLocalOrder` in [Model.lean](../KungTraub/Model.lean): it requires both the error estimate and membership of every actual query location in the input interval, throughout a full punctured neighbourhood. The analytic input hypothesis is local to the interval. Lean represents the function by a total map, but no analyticity outside that interval is assumed.
 
 Check the coefficient indexing against the paper: `κ₁ = 1/2`, `κ_(j+1) = (∏_{i=1}^j κ_i)/(j+2)`, and the `n`-observation method has coefficient `κ_(n-1)`. The value at index zero is an initial convention.
 
 ## 5. Check Appendix B: complex observations
 
-Read [ComplexDefinitions.lean](../KungTraubAppendices/ComplexDefinitions.lean) in full, then [ComplexConclusion.lean](../KungTraubAppendices/ComplexConclusion.lean).
+Read the section “Complex observations and local domains” in [Model.lean](../KungTraub/Model.lean) in full, from `ComplexQuery` through `ComplexEntireCounterexample`, then read [ComplexConclusion.lean](../KungTraubAppendices/ComplexConclusion.lean).
 
 Verify that one complex derivative value counts as one observation; derivative order and complex query location are unrestricted in the entire-input model. The same restriction to previous answers holds as in the real model.
 
