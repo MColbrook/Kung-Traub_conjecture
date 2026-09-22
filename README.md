@@ -74,11 +74,13 @@ The proofs use Lean's standard axioms `propext`, `Classical.choice` and `Quot.so
 
 The recorded release snapshot passed a clean build, an axiom audit of 1,202 declarations and secure Comparator checks of all 1,058 named theorems. Those historical checks used Comparator revision `3927ad383f208ae977c340a91c48ac9b497d2097` with NanoDa disabled. The [verification results](docs/Verification.md#release-checks) identify the checked sources, commands and output; they do not certify later repository changes.
 
-## Palomar preparation
+## Palomar registration
 
-The intended entry uses [Verification/palomar-principals.json](Verification/palomar-principals.json), the standalone statement module [PalomarChallenge.lean](PalomarChallenge.lean), and solution module `All`. The original [Challenge.lean](Challenge.lean) and four release configurations remain part of the historical verification record. Challenge/reference `sorry` declarations are deliberate statement placeholders; they are excluded from the solution's zero-proof-hole claim and from its import closure.
+The twelve principal results at commit [902bb22e24fb5c4e8e319305fb75378fb32d9eb4](https://github.com/MColbrook/Kung-Traub_conjecture/tree/902bb22e24fb5c4e8e319305fb75378fb32d9eb4) are registered as [PALOMAR-2026-09-20-000006, version 1](https://palomar-registry.org/entry?id=PALOMAR-2026-09-20-000006&version=1). The registration records that fixed snapshot; later commits do not change version 1.
 
-A fresh full Palomar workflow, including independent NanoDa replay, has **not yet passed for this prepared snapshot**. Preparation does not constitute a Palomar submission, registration, or endorsement. See [docs/Palomar.md](docs/Palomar.md) for the pinned workflow and remaining checks.
+The registered entry uses [Verification/palomar-principals.json](https://github.com/MColbrook/Kung-Traub_conjecture/blob/902bb22e24fb5c4e8e319305fb75378fb32d9eb4/Verification/palomar-principals.json), the standalone statement module [PalomarChallenge.lean](https://github.com/MColbrook/Kung-Traub_conjecture/blob/902bb22e24fb5c4e8e319305fb75378fb32d9eb4/PalomarChallenge.lean), and solution module `All`. The original [Challenge.lean](Challenge.lean) and four release configurations remain part of the historical verification record. Challenge/reference `sorry` declarations are deliberate statement placeholders; they are excluded from the solution's zero-proof-hole claim and from its import closure.
+
+The [full preflight for the registered commit](https://github.com/MColbrook/Kung-Traub_conjecture/actions/runs/35509148070) passed Comparator, Lean, and independent NanoDa verification of the twelve principal results. The [preparation guide](docs/Palomar.md) records the workflow and checks performed before registration.
 
 The [mathematical review guide](docs/Review.md) gives a reading order for checking the statements, definitions and their correspondence with the paper.
 
